@@ -206,7 +206,7 @@ initMap();
 /*************************
  TIMERS
 **************************/
-setInterval(updateData, 3000);
+setInterval(updateData, 1000);
 
 /*************************
  FIRE POPUP CLOSE
@@ -214,3 +214,4 @@ setInterval(updateData, 3000);
 function closePopup() {
   showFirePopup(false);
 }
+
